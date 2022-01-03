@@ -155,4 +155,24 @@ input{
 
 #resultat{
   text-align: center;
+  align-items: center;
+}
+
+.resq{
+  /* width:100%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resq tr, .resq th{
+  width:60%;
+  font-size: 1.3em;
+}
+
+.resq tr{
+  margin:30px;
+}
+
+.resq tr:nth-child(6){
+  border-bottom: 1px solid rgb(100, 100, 100);
 }

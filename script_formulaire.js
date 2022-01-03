@@ -6,14 +6,14 @@ function submitQuestionnaire() {
 var cdt_Macron = 0,cdt_Macron_eco = 0, cdt_Macron_soc = 0, cdt_Macron_pub = 0, cdt_Macron_env = 0;
 var cdt_LePen = 0,cdt_LePen_eco = 0, cdt_LePen_soc = 0, cdt_LePen_pub = 0, cdt_LePen_env = 0;
 var cdt_Fillon = 0,cdt_Fillon_eco = 0, cdt_Fillon_soc = 0, cdt_Fillon_pub = 0, cdt_Fillon_env = 0;
-var cdt_Melanchon = 0,cdt_Melanchon_eco = 0, cdt_Melanchon_soc = 0, cdt_Melanchon_pub = 0, cdt_Melanchon_env = 0;
+var cdt_Mélenchon = 0,cdt_Mélenchon_eco = 0, cdt_Mélenchon_soc = 0, cdt_Mélenchon_pub = 0, cdt_Mélenchon_env = 0;
 var cdt_Hamon = 0,cdt_Hamon_eco = 0, cdt_Hamon_soc = 0, cdt_Hamon_pub = 0, cdt_Hamon_env = 0;
 
 
 if (document.getElementById("pour1").checked) {
     cdt_Macron_pub+=1;
     cdt_LePen_pub+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_pub+=1;
 }
 if (document.getElementById("contre1").checked) {
     cdt_Fillon_pub+=1;
@@ -23,7 +23,7 @@ if (document.getElementById("contre1").checked) {
 
 
 if (document.getElementById("pour2").checked) {
-    cdt_Melanchon_eco+=1;
+    cdt_Mélenchon_eco+=1;
     cdt_Hamon_eco+=1;
 }
 if (document.getElementById("contre2").checked) {
@@ -39,7 +39,7 @@ if (document.getElementById("pour3").checked) {
     cdt_Fillon_eco+=1;
 }
 if (document.getElementById("contre3").checked) {
-    cdt_Melanchon_eco+=1;
+    cdt_Mélenchon_eco+=1;
     cdt_Hamon_eco+=1;
 }
 
@@ -47,8 +47,8 @@ if (document.getElementById("contre3").checked) {
 if (document.getElementById("pour4").checked) {
     cdt_Macron_env+=1;
     cdt_Macron_pub+=1;
-    cdt_Melanchon_env+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_env+=1;
+    cdt_Mélenchon_pub+=1;
     cdt_Hamon_env+=1;
     cdt_Hamon_pub+=1;
 }
@@ -63,8 +63,8 @@ if (document.getElementById("contre4").checked) {
 if (document.getElementById("pour6").checked) {
     cdt_LePen_soc+=1;
     cdt_LePen_pub+=1;
-    cdt_Melanchon_soc+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_soc+=1;
+    cdt_Mélenchon_pub+=1;
 }
 if (document.getElementById("contre6").checked) {
     cdt_Macron_soc+=1;
@@ -87,8 +87,8 @@ if (document.getElementById("contre5").checked) {
     cdt_Fillon_pub+=1;
     cdt_Macron_soc+=1;
     cdt_Macron_pub+=1;
-    cdt_Melanchon_soc+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_soc+=1;
+    cdt_Mélenchon_pub+=1;
 }
 
 
@@ -98,7 +98,7 @@ if (document.getElementById("pour7").checked) {
     cdt_Fillon_eco+=1;
 }
 if (document.getElementById("contre7").checked) {
-    cdt_Melanchon_eco+=1;
+    cdt_Mélenchon_eco+=1;
     cdt_Hamon_eco+=1;
 }
 
@@ -106,8 +106,8 @@ if (document.getElementById("contre7").checked) {
 if (document.getElementById("pour8").checked) {
     cdt_Macron_eco+=1;
     cdt_Macron_soc+=1;
-    cdt_Melanchon_soc+=1;
-    cdt_Melanchon_eco+=1;
+    cdt_Mélenchon_soc+=1;
+    cdt_Mélenchon_eco+=1;
     cdt_Hamon_eco+=1;
     cdt_Hamon_soc+=1;
 }
@@ -121,7 +121,7 @@ if (document.getElementById("contre8").checked) {
 
 
 if (document.getElementById("pour9").checked) {
-    cdt_Melanchon_env+=1;
+    cdt_Mélenchon_env+=1;
     cdt_Hamon_env+=1;
 }
 if (document.getElementById("contre9").checked) {
@@ -134,7 +134,7 @@ if (document.getElementById("contre9").checked) {
 if (document.getElementById("pour10").checked) {
     cdt_LePen_pub+=1;
     cdt_Fillon_pub+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_pub+=1;
 }
 if (document.getElementById("contre10").checked) {
     cdt_Macron_pub+=1;
@@ -149,7 +149,7 @@ if (document.getElementById("pour11").checked) {
 if (document.getElementById("contre11").checked) {
     cdt_LePen_pub+=1;
     cdt_Fillon_pub+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_pub+=1;
 }
 
 
@@ -159,7 +159,7 @@ if (document.getElementById("pour12").checked) {
 }
 if (document.getElementById("contre12").checked) {
     cdt_Macron_eco+=1;
-    cdt_Melanchon_eco+=1;
+    cdt_Mélenchon_eco+=1;
     cdt_Hamon_eco+=1;
 }
 
@@ -170,14 +170,14 @@ if (document.getElementById("pour13").checked) {
 if (document.getElementById("contre13").checked) {
     cdt_Macron_env+=1;
     cdt_LePen_env+=1;
-    cdt_Melanchon_env+=1;
+    cdt_Mélenchon_env+=1;
     cdt_Hamon_env+=1;
 }
 
 
 if (document.getElementById("pour14").checked) {
     cdt_LePen_pub+=1;
-    cdt_Melanchon_pub+=1;
+    cdt_Mélenchon_pub+=1;
 }
 if (document.getElementById("contre14").checked) {
     cdt_Macron_pub+=1;
@@ -193,8 +193,8 @@ if (document.getElementById("pour15").checked) {
     cdt_Fillon_soc+=1;
 }
 if (document.getElementById("contre15").checked) {
-    cdt_Melanchon_pub+=1;
-    cdt_Melanchon_soc+=1;
+    cdt_Mélenchon_pub+=1;
+    cdt_Mélenchon_soc+=1;
     cdt_Macron_pub+=1;
     cdt_Macron_soc+=1;
     cdt_Hamon_pub+=1;
@@ -203,8 +203,8 @@ if (document.getElementById("contre15").checked) {
 
 
 if (document.getElementById("pour16").checked) {
-    cdt_Melanchon_eco+=1;
-    cdt_Melanchon_soc+=1;
+    cdt_Mélenchon_eco+=1;
+    cdt_Mélenchon_soc+=1;
     cdt_Macron_eco+=1;
     cdt_Macron_soc+=1;
     cdt_Hamon_eco+=1;
@@ -227,8 +227,8 @@ if (document.getElementById("pour17").checked) {
     cdt_Macron_soc+=1;
 }
 if (document.getElementById("contre17").checked) {
-    cdt_Melanchon_pub+=1;
-    cdt_Melanchon_soc+=1;
+    cdt_Mélenchon_pub+=1;
+    cdt_Mélenchon_soc+=1;
     cdt_Hamon_pub+=1;
     cdt_Hamon_soc+=1;
 }
@@ -242,8 +242,8 @@ if (document.getElementById("pour18").checked) {
     cdt_Macron_soc+=1;
 }
 if (document.getElementById("contre18").checked) {
-    cdt_Melanchon_pub+=1;
-    cdt_Melanchon_soc+=1;
+    cdt_Mélenchon_pub+=1;
+    cdt_Mélenchon_soc+=1;
     cdt_Hamon_pub+=1;
     cdt_Hamon_soc+=1;
     cdt_LePen_pub+=1;
@@ -253,7 +253,7 @@ if (document.getElementById("contre18").checked) {
 cdt_Fillon=cdt_Fillon_eco+cdt_Fillon_env+cdt_Fillon_pub+cdt_Fillon_soc;
 cdt_Macron=cdt_Macron_eco+cdt_Macron_env+cdt_Macron_pub+cdt_Macron_soc;
 cdt_LePen=cdt_LePen_eco+cdt_LePen_env+cdt_LePen_pub+cdt_LePen_soc;
-cdt_Melanchon=cdt_Melanchon_eco+cdt_Melanchon_env+cdt_Melanchon_pub+cdt_Melanchon_soc;
+cdt_Mélenchon=cdt_Mélenchon_eco+cdt_Mélenchon_env+cdt_Mélenchon_pub+cdt_Mélenchon_soc;
 cdt_Hamon=cdt_Hamon_eco+cdt_Hamon_env+cdt_Hamon_pub+cdt_Hamon_soc;
 
 var div_questions = document.getElementById("questionnaire");
@@ -273,11 +273,11 @@ let res_subtitle2 = document.createElement("p");
 res_subtitle2.innerHTML='Un résultat est sous la forme "Candidat (pourcentage de correspondance)"';
 div_res.append(res_subtitle2);
 
-var cdt_Array_gen = [["Macron",cdt_Macron],["LePen",cdt_LePen],["Fillon",cdt_Fillon],["Melanchon",cdt_Melanchon],["Hamon",cdt_Hamon]];
-var cdt_Array_eco = [["Macron",cdt_Macron_eco],["LePen",cdt_LePen_eco],["Fillon",cdt_Fillon_eco],["Melanchon",cdt_Melanchon_eco],["Hamon",cdt_Hamon_eco]];
-var cdt_Array_env = [["Macron",cdt_Macron_env],["LePen",cdt_LePen_env],["Fillon",cdt_Fillon_env],["Melanchon",cdt_Melanchon_env],["Hamon",cdt_Hamon_env]];
-var cdt_Array_pub = [["Macron",cdt_Macron_pub],["LePen",cdt_LePen_pub],["Fillon",cdt_Fillon_pub],["Melanchon",cdt_Melanchon_pub],["Hamon",cdt_Hamon_pub]];
-var cdt_Array_soc = [["Macron",cdt_Macron_soc],["LePen",cdt_LePen_soc],["Fillon",cdt_Fillon_soc],["Melanchon",cdt_Melanchon_soc],["Hamon",cdt_Hamon_soc]];
+var cdt_Array_gen = [["Macron",cdt_Macron],["Le Pen",cdt_LePen],["Fillon",cdt_Fillon],["Mélenchon",cdt_Mélenchon],["Hamon",cdt_Hamon]];
+var cdt_Array_eco = [["Macron",cdt_Macron_eco],["Le Pen",cdt_LePen_eco],["Fillon",cdt_Fillon_eco],["Mélenchon",cdt_Mélenchon_eco],["Hamon",cdt_Hamon_eco]];
+var cdt_Array_env = [["Macron",cdt_Macron_env],["Le Pen",cdt_LePen_env],["Fillon",cdt_Fillon_env],["Mélenchon",cdt_Mélenchon_env],["Hamon",cdt_Hamon_env]];
+var cdt_Array_pub = [["Macron",cdt_Macron_pub],["Le Pen",cdt_LePen_pub],["Fillon",cdt_Fillon_pub],["Mélenchon",cdt_Mélenchon_pub],["Hamon",cdt_Hamon_pub]];
+var cdt_Array_soc = [["Macron",cdt_Macron_soc],["Le Pen",cdt_LePen_soc],["Fillon",cdt_Fillon_soc],["Mélenchon",cdt_Mélenchon_soc],["Hamon",cdt_Hamon_soc]];
 
 var cdt_sortArray_gen = sort(cdt_Array_gen);
 var cdt_sortArray_eco = sort(cdt_Array_eco);
@@ -286,6 +286,7 @@ var cdt_sortArray_pub = sort(cdt_Array_pub);
 var cdt_sortArray_soc = sort(cdt_Array_soc);
 
 var res_table = document.createElement("table");
+res_table.setAttribute("class","resq");
 var res_ligne1 = document.createElement("tr");
 var res_ligne2 = document.createElement("tr");
 var res_ligne3 = document.createElement("tr");
