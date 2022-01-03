@@ -152,3 +152,7 @@ input{
   transform: scale(1.2);
   height:20px;
 }
+
+#resultat{
+  text-align: center;
+}
